@@ -1,0 +1,84 @@
+body{
+    font-family: "EB Garamond", serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    padding: 20px;
+    margin: 20px;   
+}
+
+.section-one{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.section-one__menu{
+    text-decoration: none;
+    color: white;
+}
+
+.section-two,.section-three,.section-four,.section-five{
+    padding: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    border: solid black 2px;
+    
+}
+.section-two__img{
+    width: 300px;
+    height: 500px;
+    
+}
+.container-1{
+    text-align: center;
+    
+}
+
+.section-two__title{
+    padding-top:10px;
+}
+.section-two__desc{
+    padding-top:10px;
+     height: 60px;
+}
+.section-two__button{
+    margin-top: 10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.section-six{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+
+}
+.section-six__form {
+    text-align: center;
+}
+
+.section-six table{
+    margin: auto;
+}
+
+.section-six button {
+    padding: 10px ;
+    width: 200%;
+    cursor: pointer;
+    margin-left: -50%;
+    background-color: yellow;
+    border: none;
+}
